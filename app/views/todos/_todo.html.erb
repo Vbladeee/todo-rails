@@ -1,0 +1,11 @@
+
+
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><strong>Title:</strong> <%= todo.title %> </h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary"> <strong>Description:</strong> <%= todo.description %> </h6>
+    <p class="card-text"> <strong>Completed:</strong> <%= todo.completed %> </p>
+    <%= link_to "View to do", todo, class: "card-link" %>
+  </div>
+</div>

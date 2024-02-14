@@ -1,0 +1,10 @@
+
+<%= render 'layouts/navigation' %>
+<p style="color: green"><%= notice %></p>
+
+<div id="todos">
+  <% @todos.each do |todo| %>
+    <%= render todo %>
+  
+  <% end %>
+</div>
